@@ -20,6 +20,7 @@ class ParticipantController extends Controller
         return view('home',[
             'participants' => Participant::all(),
         ]);
+        // return view('welcome');
     }
 
     /**
